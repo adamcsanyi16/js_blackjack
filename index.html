@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blackjack</title>
+</head>
+<body>
+    <div class="layout">
+        <h2>Osztó lapjai</h2>
+        <div class="wrapper">
+            <div class="cards" id="dealer">
+            </div>
+        </div>
+        <h2>Játekos lapjai</h2>
+        <div class="wrapper">
+            <div class="cards" id="player">
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="container" id="button-container">
+                <button id="hit-button">Hit</button>
+                <button id="pass-button">Pass</button>
+            </div>
+        </div>
+        <div class="background" id="notice">
+        <div class="notice">
+            <p></p>
+            <button id="next-hand-button">Deal Next Hand</button>
+        </div>
+        </div>
+    </div>
+
+    <script src="blackjack.js"></script>
+</body>
+</html>
