@@ -24,7 +24,7 @@ const HIT_BUTTON = document.getElementById("hit-button");
 const PASS_BUTTON = document.getElementById("pass-button");
 const BUTTON_CONTAINER = document.getElementById("button-container");
 const NOTICE = document.getElementById("notice");
-const NEX_HAND_BUTTON = document.getElementById("next-hand-button");
+const NEXT_HAND_BUTTON = document.getElementById("new-game");
 
 let allDecks = [];
 let dealerHand = [];
@@ -151,7 +151,7 @@ const newGame = () => {
 
 HIT_BUTTON.addEventListener("click", hitPlayer);
 PASS_BUTTON.addEventListener("click", hitDealer);
-NEX_HAND_BUTTON.addEventListener("click", newGame);
+NEXT_HAND_BUTTON.addEventListener("click", newGame);
 
 shuffleDecks(5);
 dealHands();
