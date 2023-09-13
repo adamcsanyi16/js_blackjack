@@ -24,6 +24,11 @@ button {
   width: fit-content;
 }
 
+hr {
+  margin-top: 30px;
+  width: 30%;
+}
+
 .cards {
   display: flex;
   gap: 10px;
@@ -50,7 +55,7 @@ button {
 }
 
 .container {
-  margin: 30px;
+  margin-top: 30px;
 }
 
 .background {
